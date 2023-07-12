@@ -27,8 +27,7 @@ for (var i = 0; i < number.length; i++) {
       // if result is currently displayed and user pressed a number
       // we need clear the input string and add the new input to start the new opration
       resultDisplayed = false;
-      input.innerHTML = "";
-      input.innerHTML += e.target.innerHTML;
+      input.innerHTML = e.target.innerHTML;
     }
 
   });
